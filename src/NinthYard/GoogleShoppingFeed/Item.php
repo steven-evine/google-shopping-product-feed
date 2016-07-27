@@ -374,6 +374,28 @@ class Item
 
     /**
      * [pattern description]
+     * @param  [type] $identifier_exists [description]
+     * @return [type]                 [description]
+     */
+    public function identifier_exists($identifier_exists)
+    {
+        $node = new Node('identifier_exists');
+        $this->nodes['identifier_exists'] = $node->value($identifier_exists)->_namespace($this->namespace);
+    }
+
+    /**
+     * [pattern description]
+     * @param  [type] $adwords_grouping [description]
+     * @return [type]                 [description]
+     */
+    public function adwords_grouping($adwords_grouping)
+    {
+        $node = new Node('adwords_grouping');
+        $this->nodes['adwords_grouping'] = $node->value($adwords_grouping)->_namespace($this->namespace);
+    }
+
+    /**
+     * [pattern description]
      * @param  [type] $custom_label_0 [description]
      * @return [type]                 [description]
      */
