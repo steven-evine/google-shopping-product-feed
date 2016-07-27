@@ -1,7 +1,7 @@
 {
-  "name": "ninthyard/google-shopping-product-feed",
+  "name": "elfeffe/google-shopping-product-feed",
   "description": "Google Shopping Product Feed for PHP",
-  "homepage": "https://github.com/NinthYard/google-shopping-product-feed",
+  "homepage": "https://github.com/elfeffe/google-shopping-product-feed",
   "license": "GPLv3",
   "keywords": [
     "Google",
@@ -22,8 +22,8 @@
   ],
   "support": {
     "email": "google-shopping-product-feed@ninthyard.co.uk",
-    "issues": "https://github.com/NinthYard/google-shopping-product-feed/issues",
-    "source": "https://github.com/NinthYard/google-shopping-product-feed",
+    "issues": "https://github.com/elfeffe/google-shopping-product-feed/issues",
+    "source": "https://github.com/elfeffe/google-shopping-product-feed",
     "docs": "http://www.ninthyard.co.uk/google-shopping-product-feed"
   },
   "require": {
@@ -34,17 +34,17 @@
   },
   "autoload": {
     "psr-4": {
-      "NinthYard\\GoogleShoppingFeed\\": "src/NinthYard/GoogleShoppingFeed"
+      "elfeffe\\GoogleShoppingFeed\\": "src/NinthYard/GoogleShoppingFeed"
     }
   },
   "repositories": [
     {
       "type": "composer",
-      "url": "https://packagist.org/packages/ninthyard/google-shopping-product-feed"
+      "url": "https://packagist.org/packages/elfeffe/google-shopping-product-feed"
     },
     {
       "type": "vcs",
-      "url": "https://github.com/NinthYard/google-shopping-product-feed"
+      "url": "https://github.com/elfeffe/google-shopping-product-feed"
     }
   ],
   "minimum-stability": "dev",
