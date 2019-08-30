@@ -14,14 +14,14 @@ For more information see: https://support.google.com/merchants/answer/188494?hl=
 ```json
 {
     "require": {
-        "ninthyard/google-shopping-product-feed": "master"
+        "elfeffe/google-shopping-product-feed": "*"
     }
 }
 ```
 
 ###Composer (Command Line)
 ```
-composer require ninthyard/google-shopping-product-feed
+composer require elfeffe/google-shopping-product-feed
 ```
 
 ###Standard Installation
